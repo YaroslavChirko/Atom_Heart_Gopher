@@ -2,4 +2,4 @@ language: go
 go:
 - "1.13.8"
 before_install:
--make test
+- make test
