@@ -2,5 +2,5 @@ language: go
 go:
 - "1.13.8"
 before_install:
-- go get https://github.com/stretchr/testify
+- go get github.com/stretchr/testify
 - make test
