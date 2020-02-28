@@ -2,7 +2,7 @@ package main
 
 import(
        "fmt"
-        lab1 "github.com/project"
+        lab1 "github.com/YaroslavChirko/Atom_Heart_Gopher"
 )
 
 func main() {
