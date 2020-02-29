@@ -17,7 +17,7 @@ out/example:	ts1.go	./cmd/example/main.go
 	
 pass:
 
-	printf "Passed" >> ./README.md
+	printf "Passed" >> github.com/YaroslavChirko/Atom_Heart_Gopher/README.md
 	git add ./README.md
 	git commit -m "updated readme"
 	
