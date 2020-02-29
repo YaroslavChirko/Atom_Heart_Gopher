@@ -17,8 +17,12 @@ out/example:	ts1.go	./cmd/example/main.go
 	
 readme_pass:
 
-	printf "Passed" >> https://github.com/YaroslavChirko/Atom_Heart_Gopher/README.md
+	printf "Passed" >> ./README.md
+	git add README
+	git commit -m "updated readme"
 	
 readme_fail:
 
-	printf "Failed" >> https://github.com/YaroslavChirko/Atom_Heart_Gopher/README.md
+	printf "Failed" >> ./README.md	
+	git add README
+	git commit -m "updated readme"
