@@ -4,3 +4,7 @@ go:
 before_install:
 - go get github.com/stretchr/testify
 - make test
+on_success:
+- make readme_pass
+on_failure:
+- make readme_fail
