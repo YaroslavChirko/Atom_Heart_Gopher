@@ -5,6 +5,6 @@ before_install:
 - go get github.com/stretchr/testify
 - make test
 after_success:
-- make readme_pass
+- make pass
 after_failure:
-- make readme_fail
+- make fail
