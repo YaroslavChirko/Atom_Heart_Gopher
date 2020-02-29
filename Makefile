@@ -15,13 +15,13 @@ out/example:	ts1.go	./cmd/example/main.go
 	printf	'"'	>>	./cmd/example/file.go
 	go	build	-o	out/example	./cmd/example
 	
-readme_pass:
+pass:
 
 	printf "Passed" >> ./README.md
 	git add ./README.md
 	git commit -m "updated readme"
 	
-readme_fail:
+fail:
 
 	printf "Failed" >> ./README.md	
 	git add ./README.md
