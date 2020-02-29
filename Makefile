@@ -17,8 +17,8 @@ out/example:	ts1.go	./cmd/example/main.go
 	
 readme_pass:
 
-	printf "Passed" >> ./README.md
+	printf "Passed" >> https://github.com/YaroslavChirko/Atom_Heart_Gopher/README.md
 	
 readme_fail:
 
-	printf "Failed" >> ./README.md
+	printf "Failed" >> https://github.com/YaroslavChirko/Atom_Heart_Gopher/README.md
